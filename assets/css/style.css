@@ -589,6 +589,14 @@ iframe{
         height: 200px;
     }
 
+    .xizmatlar-info{
+        width: 100%;
+    }
+
+    .buyurtma-info{
+        width: 100%;
+    }
+
     .buyurtma-info{
         width: 90%;
         margin-left: 15px;
@@ -596,6 +604,14 @@ iframe{
 
     .buyurtma-item{
         width: 70%;
+    }
+
+    .ish{
+        padding-top: 0;
+    }
+
+    .ish-info{
+        width: 100%;
     }
 
     .ish-item{
@@ -613,6 +629,4 @@ iframe{
     .submit{
         font-size: 14px;
     }
-
-
 }
