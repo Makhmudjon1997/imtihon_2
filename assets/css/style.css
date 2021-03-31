@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -264,6 +268,11 @@ iframe{
     margin: 0 auto;
 }
 
+.ish-buyurtma-link:hover{
+    color: #00BAFC;
+    background-color: white;
+}
+
 
 .user-info{
     background-color: #00BAFC;
@@ -272,7 +281,7 @@ iframe{
 }
 
 .user-info-info{
-    width: 80%;
+    width: 60%;
 }
 
 .user-info .container{
@@ -295,7 +304,7 @@ iframe{
 
 .form-box{
     background-color: white;
-    width: 50%;
+    width: 25%;
     border-radius: 5px;
 }
 
@@ -334,14 +343,19 @@ iframe{
     background-color: #00BAFC;
     color: white; 
     border: 1px solid #00BAFC;
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 5px;
     font-weight: bolder;
     display: inline-block;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.submit:hover{
+    color: #00BAFC;
+    background-color: white;
 }
 
 
@@ -406,6 +420,14 @@ iframe{
     .ish-item-img{
         width: 40%;
     }
+
+    .user-info-info{
+        width: 70%;
+    }
+
+    .form-box{
+        width: 35%;
+    }
 }
 
 
@@ -430,6 +452,10 @@ iframe{
 
     .nav-list{
         display: none;
+    }
+
+    .form-box{
+        width: 40%;
     }
 
 
@@ -476,6 +502,10 @@ iframe{
         width: 90%;
     }
 
+    .form-box{
+        width: 40%;
+    }
+
     .footer{
         text-align: center;
     }
@@ -507,6 +537,10 @@ iframe{
         margin-top: 20px;
     }
 
+    .form-box{
+        width: 50%;
+    }
+
 }
 
 @media (max-width:620px){
@@ -535,7 +569,7 @@ iframe{
     }
 
     .form-box{
-        width: 70%;
+        width: 55%;
     }
 }
 
@@ -568,6 +602,10 @@ iframe{
         padding: 10px 0;
     }
 
+    .form-box{
+        width: 70%;
+    }
+
     .footer-list{
         padding-left: 0;
     }
@@ -589,7 +627,13 @@ iframe{
         height: 200px;
     }
 
+
+
     .xizmatlar-info{
+        width: 100%;
+    }
+
+    .buyurtma .container{
         width: 100%;
     }
 
@@ -624,6 +668,12 @@ iframe{
 
     .ish-text, .icon-text, .buyurtma-text, .user-info-text, .xizmatlar-text,.ish-item-info-text, .copyright-text{
         font-size: 14px;
+    }
+
+
+
+    .form-box{
+        width: 70%;
     }
 
     .submit{
