@@ -546,6 +546,10 @@ iframe{
         font-size: 14px;
     }
 
+    .xizmatlar-title, .user-info-title, .buyurtma-title, .nav-title, .ish-title{
+        font-size: 24px;
+    }
+
 }
 
 @media (max-width:620px){
