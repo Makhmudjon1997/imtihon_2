@@ -611,9 +611,14 @@ iframe{
     .buyurtma-links{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .buyurtma-link{
         padding: 10px 0;
+    }
+
+    .first{
+        width: 50%;
     }
 
     .form-box{
