@@ -460,6 +460,11 @@ iframe{
     .ish-text, .footer-link, .icon-text, .buyurtma-text, .user-info-text, .xizmatlar-text,.ish-item-info-text, .copyright-text{
         font-size: 14px;
     }
+
+    
+    .xizmatlar-title, .user-info-title, .buyurtma-title, .nav-title, .ish-title{
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 820px){
