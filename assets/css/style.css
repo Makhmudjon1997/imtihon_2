@@ -542,6 +542,10 @@ iframe{
         width: 50%;
     }
 
+    .buyurtma-item-title, .buyurtma-item-text{
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width:620px){
