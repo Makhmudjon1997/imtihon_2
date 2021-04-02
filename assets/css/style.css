@@ -476,7 +476,7 @@ iframe{
         padding-bottom: 40px;
     }
     .xizmatlar .container{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .xizmatlar-info{
@@ -486,7 +486,7 @@ iframe{
 
     .xizmatlar-img{
         width: 80%;
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .buyurtma{
@@ -607,6 +607,7 @@ iframe{
 
     .xizmatlar-title, .user-info-title, .buyurtma-title, .nav-title, .ish-title{
         font-size: 22px;
+        font-weight: normal;
     }
 
     .xizmatlar-img{
