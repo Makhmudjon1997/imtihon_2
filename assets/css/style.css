@@ -610,6 +610,10 @@ iframe{
         font-weight: normal;
     }
 
+
+    .ish-item-info-title, .footer-item-title, .copyright{
+        font-weight: normal;
+    }
     .xizmatlar-img{
         width: 90%;
     }
